@@ -2,9 +2,9 @@
 
 namespace bella\DemoPackage;
 
+use bella\DemoPackage\Commands\DemoPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use bella\DemoPackage\Commands\DemoPackageCommand;
 
 class DemoPackageServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace bella\DemoPackage\Tests;
 
+use bella\DemoPackage\DemoPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use bella\DemoPackage\DemoPackageServiceProvider;
 
 class TestCase extends Orchestra
 {
