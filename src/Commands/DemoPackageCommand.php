@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace bella\DemoPackage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DemoPackageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'demopackage';
 
     public $description = 'My command';
 

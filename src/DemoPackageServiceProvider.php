@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace bella\DemoPackage;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use bella\DemoPackage\Commands\DemoPackageCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class DemoPackageServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('demopackage')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_demopackage_table')
+            ->hasCommand(DemoPackageCommand::class);
     }
 }
